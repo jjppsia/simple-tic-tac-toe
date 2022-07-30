@@ -81,7 +81,7 @@ function Board() {
     setXIsNext(true);
   };
 
-  // createa a variable to store the winner
+  // create a variable to store the winner
   const winner = calculateWinner(squares);
 
   let gameStatus;
